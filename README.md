@@ -2,7 +2,7 @@
 
 This package is a portable, de-identified version of a doctoral supervision and project-memory skill.
 
-It is designed for someone who wants Codex to support a long-term research project across conversations without copying another person's private project memory.
+It is designed for someone who wants Codex to support a long-term research project across conversations.
 
 ## Contents
 
