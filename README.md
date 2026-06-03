@@ -1,6 +1,6 @@
 # Expanded anonymized supervisor-skill package
 
-This package is a portable, de-identified version of a doctoral supervision and project-memory skill.
+This package is a portable doctoral supervision and project-memory skill.
 
 It is designed for someone who wants Codex to support a long-term research project across conversations.
 
