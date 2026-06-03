@@ -28,17 +28,6 @@ This is a session-first research supervision skill. It helps Codex:
 - stage uncertain ideas before writing them into durable memory;
 - support research-question, writing, article, meeting-preparation, and weekly-execution work.
 
-## What this is not
-
-It is not a copy of another person's doctoral project. It does not include:
-
-- personal identifiers;
-- local machine paths;
-- supervisor names;
-- real project title, questions, methods, data, field sites, or cases;
-- real session logs;
-- real weekly progress records.
-
 ## Basic installation
 
 1. Copy `supervisor-skill/` into the local Codex skills directory.
