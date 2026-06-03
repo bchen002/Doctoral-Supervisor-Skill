@@ -1,0 +1,28 @@
+type: object
+required:
+  - active_cycle
+  - current_focus
+  - live_assumptions
+  - update_history
+properties:
+  active_cycle:
+    type: object
+    properties:
+      label: {type: string}
+      start_date: {type: string}
+      review_date: {type: string}
+  current_focus:
+    type: array
+    items: {type: object}
+  live_assumptions:
+    type: array
+    items: {type: object}
+  decisions_to_confirm:
+    type: array
+  next_files_to_read:
+    type: array
+  boundaries:
+    type: array
+  update_history:
+    type: array
+    items: {type: object}

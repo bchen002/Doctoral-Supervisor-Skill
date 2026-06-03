@@ -1,0 +1,29 @@
+type: object
+required:
+  - session_id
+  - date
+  - session_type
+  - agenda
+  - handover
+properties:
+  session_id: {type: string}
+  date: {type: string}
+  session_type: {type: string}
+  entry_context: {type: string}
+  agenda:
+    type: array
+  updates_received:
+    type: array
+  key_movement:
+    type: array
+  decisions:
+    type: array
+  unresolved:
+    type: array
+  memory_updates:
+    type: array
+  handover:
+    type: object
+    properties:
+      next_entry_point: {type: string}
+      suggested_next_files: {type: array}

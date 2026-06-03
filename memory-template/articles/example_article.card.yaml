@@ -1,0 +1,15 @@
+article_id: "example_article"
+working_title: "to_confirm"
+status: "provisional"
+audience_or_venue: "unknown"
+current_claim: "to_confirm"
+relation_to_larger_project: "to_confirm"
+material_boundary: []
+active_section: "unknown"
+parked_alternatives: []
+next_task: "to_confirm"
+
+update_history:
+  - date: "to_confirm"
+    source: "template"
+    summary: "Example article card. Rename or replace with the recipient's own article project."

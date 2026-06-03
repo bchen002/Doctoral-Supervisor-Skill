@@ -1,0 +1,18 @@
+type: object
+required:
+  - log_id
+  - purpose
+  - entries
+properties:
+  log_id: {type: string}
+  purpose: {type: string}
+  entries:
+    type: array
+    items:
+      type: object
+      properties:
+        date: {type: string}
+        source: {type: string}
+        summary: {type: string}
+        status: {type: string}
+        links: {type: array}

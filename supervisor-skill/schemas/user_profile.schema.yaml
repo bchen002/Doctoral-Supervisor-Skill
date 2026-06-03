@@ -1,0 +1,13 @@
+type: object
+properties:
+  collaboration_preferences:
+    type: array
+  writing_preferences:
+    type: array
+  pacing_preferences:
+    type: array
+  boundaries:
+    type: array
+  update_history:
+    type: array
+    items: {type: object}

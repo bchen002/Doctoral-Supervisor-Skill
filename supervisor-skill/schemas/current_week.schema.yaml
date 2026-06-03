@@ -1,0 +1,28 @@
+type: object
+required:
+  - week
+  - commitments
+  - completed
+  - carry_forward
+properties:
+  week: {type: string}
+  commitments:
+    type: array
+    items: {type: object}
+  completed:
+    type: array
+    items: {type: object}
+  unfinished_or_blocked:
+    type: array
+    items: {type: object}
+  capacity_pattern:
+    type: array
+  carry_forward:
+    type: array
+    items: {type: object}
+  next_week_candidates:
+    type: array
+    items: {type: object}
+  update_history:
+    type: array
+    items: {type: object}

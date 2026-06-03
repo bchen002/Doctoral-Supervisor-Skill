@@ -1,0 +1,14 @@
+type: object
+required:
+  - logs
+properties:
+  logs:
+    type: array
+    items:
+      type: object
+      properties:
+        id: {type: string}
+        file: {type: string}
+        use_for: {type: array}
+        status: {type: string}
+        last_updated: {type: string}

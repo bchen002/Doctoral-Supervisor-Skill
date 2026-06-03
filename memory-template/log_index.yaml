@@ -1,0 +1,7 @@
+logs:
+  - id: "general_project_log"
+    file: "logs/general_project_log.yaml"
+    use_for:
+      - "general project continuity that does not yet need a specialized stream"
+    status: "available"
+    last_updated: "to_confirm"

@@ -1,0 +1,37 @@
+type: object
+required:
+  - project_identity
+  - research_architecture
+  - current_stage
+  - update_history
+properties:
+  project_identity:
+    type: object
+    properties:
+      role: {type: string}
+      project_type: {type: string}
+      working_title: {type: string}
+      current_mode: {type: string}
+  research_architecture:
+    type: object
+    properties:
+      core_problem: {type: string}
+      main_question: {type: string}
+      subquestions:
+        type: array
+        items: {type: object}
+      contribution: {type: string}
+      theory: {type: array}
+      methodology: {type: array}
+      materials: {type: array}
+  current_stage:
+    type: object
+    properties:
+      stage: {type: string}
+      priorities: {type: array}
+      risks: {type: array}
+  project_trace:
+    type: object
+  update_history:
+    type: array
+    items: {type: object}

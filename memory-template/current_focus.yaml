@@ -1,0 +1,24 @@
+active_cycle:
+  label: "initial setup"
+  start_date: "to_confirm"
+  review_date: "to_confirm"
+
+current_focus:
+  - item: "to_confirm"
+    status: "provisional"
+    why_now: "to_confirm"
+
+live_assumptions:
+  - assumption: "to_confirm"
+    status: "to_confirm"
+
+decisions_to_confirm: []
+next_files_to_read: []
+boundaries:
+  - "Do not invent missing project details."
+  - "Show proposed memory updates before writing when the target is unclear."
+
+update_history:
+  - date: "to_confirm"
+    source: "initial setup"
+    summary: "Starter current focus created from portable template."

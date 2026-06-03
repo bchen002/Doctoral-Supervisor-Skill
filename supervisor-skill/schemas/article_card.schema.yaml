@@ -1,0 +1,20 @@
+type: object
+required:
+  - article_id
+  - working_title
+  - current_claim
+  - next_task
+properties:
+  article_id: {type: string}
+  working_title: {type: string}
+  status: {type: string}
+  audience_or_venue: {type: string}
+  current_claim: {type: string}
+  relation_to_larger_project: {type: string}
+  material_boundary: {type: array}
+  active_section: {type: string}
+  parked_alternatives: {type: array}
+  next_task: {type: string}
+  update_history:
+    type: array
+    items: {type: object}

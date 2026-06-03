@@ -1,0 +1,29 @@
+project_identity:
+  role: "to_confirm"
+  project_type: "to_confirm"
+  working_title: "to_confirm"
+  current_mode: "provisional"
+
+research_architecture:
+  core_problem: "to_confirm"
+  main_question: "to_confirm"
+  subquestions: []
+  contribution: "unknown"
+  theory: []
+  methodology: []
+  materials: []
+
+current_stage:
+  stage: "to_confirm"
+  priorities: []
+  risks: []
+
+project_trace:
+  superseded_or_parked_directions: []
+  durable_decisions: []
+  open_questions: []
+
+update_history:
+  - date: "to_confirm"
+    source: "initial setup"
+    summary: "Starter project map created from portable template."
