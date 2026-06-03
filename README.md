@@ -16,8 +16,6 @@ It is designed for someone who wants Codex to support a long-term research proje
   - A first-conversation guide for helping Codex initialize the recipient's project memory.
 - `install-prompt-for-recipient.md`
   - A short message the recipient can paste into Codex after installing the skill.
-- `anonymization-notes.md`
-  - What was removed and what the recipient should personalize.
 
 ## What this is
 
